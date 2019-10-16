@@ -28,4 +28,4 @@ ufw default deny incoming
 ufw default allow outgoing
 ufw --force enable
 
-echo "Success! Make sure to test a NEW ssh connection before disconnecting your old session or rebooting."
+echo "Success! Make sure to test a NEW ssh connection on port ${_sshPort} before disconnecting your old session or rebooting."
